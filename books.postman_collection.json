@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "54858adf-a572-4ee5-a511-ca3cd881e4db",
+		"name": "books",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET books/text-search/biggest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/books/text-search/biggest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"books",
+						"text-search",
+						"biggest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
